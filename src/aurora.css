@@ -1,0 +1,8 @@
+/* File: Aurora.css */
+/* Pastikan isinya bersih, cukup ini saja untuk memastikan canvas nurut sama parent */
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
