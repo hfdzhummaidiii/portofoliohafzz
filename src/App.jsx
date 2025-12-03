@@ -18,7 +18,7 @@ import { db } from './firebaseConfig';
 import { collection, getDocs, doc, setDoc, deleteDoc } from 'firebase/firestore'; 
 
 // CSS Aurora tetap di-import untuk background HomePage
-import './Aurora.css';
+import './aurorabg.css';
 
 function App() {
     const [lang, setLang] = useState('id');
