@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Typewriter from 'typewriter-effect';
 import ProfileCard from '../ProfileCard';
-import Aurora from '../aurora';
+import Aurora from '../aurorabg';
 import { Github, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
 
 // --- CUSTOM TIKTOK ICON (Karena Lucide kadang tidak punya) ---
