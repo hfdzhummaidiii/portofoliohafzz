@@ -156,15 +156,21 @@ export const content = {
             ]
         },
         contact: {
-    title: "Mari", subtitle: "Terhubung",
-    desc: "Saya selalu terbuka untuk proyek baru atau sekadar obrolan. Kirimkan sinyal Anda.",
-    contactInfo: {
-         email: "hafidzhpb2005@gmail.com", // <-- EMAIL BARU
-         phone: "+62 831 8926 4857",       // <-- NOMOR BARU (Format Cantik)
-         // Kita simpan nomor format mesin untuk link WA
-         waNumber: "6283189264857"        
-    },
-            form: { name: "Sender ID / Name", email: "Email Frequency", msg: "Message Transmission Data", btn: "INITIATE TRANSMISSION", success: "Your message has been successfully sent!" } 
+            title: "Let's", 
+            subtitle: "Connect",
+            desc: "I am always open to new projects or just a chat. Send your signal.",
+            contactInfo: {
+                 email: "hafidzhpb2005@gmail.com",
+                 phone: "+62 831 8926 4857",
+                 waNumber: "6283189264857"        
+            },
+            form: { 
+                name: "Sender ID / Name", 
+                email: "Email Frequency", 
+                msg: "Message Transmission Data", 
+                btn: "INITIATE TRANSMISSION", 
+                success: "Your message has been successfully sent!" 
+            } 
         }
     }
 };

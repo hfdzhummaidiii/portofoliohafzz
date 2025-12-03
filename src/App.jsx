@@ -147,7 +147,7 @@ function App() {
                     isAdmin={isAdmin} 
                 />
                 
-                <main className="flex flex-col w-full pb-0">
+                <main key={lang} className="flex flex-col w-full pb-0">
                     <HomePage t={t} navigate={navigateToSection} />
                     
                     
@@ -160,9 +160,12 @@ function App() {
                         isAdmin={isAdmin} 
                         handleEditProject={handleEditProject} 
                         handleDeleteProject={handleDeleteProject} 
+                        lang={lang}
                     />
                     
-                    <ContactPage t={t} />
+                    <ContactPage t={t} 
+                    lang={lang}/>
+                    
                     </Suspense>
                 </main>
 
